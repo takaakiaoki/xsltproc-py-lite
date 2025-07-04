@@ -28,6 +28,8 @@ You can install this package from [PyPI](https://pypi.org/project/xsltproc-py-li
 pip install xsltproc-py-lite
 ```
 
+---
+
 ## 🚀 Usage
 
 ```bash
@@ -41,7 +43,7 @@ xsltproc-py stylesheet.xsl input.xml -o output.xml
 | `input.xml`      | Path to the input XML file         |
 | `-o output.xml`  | Output file path (default: stdout) |
 
---
+---
 
 ## 🛠 Example
 Given:
@@ -71,7 +73,7 @@ Output:
 <hello>World</hello>
 ```
 
---
+---
 
 ## ⚠ Limitations
 
@@ -79,8 +81,9 @@ Output:
 * Does not support parameters (e.g., --stringparam)
 * No support for chunking, profiling, or extensions
 
---
+---
 
 ## 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LIiCENCE).
 
+---
