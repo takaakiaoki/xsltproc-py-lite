@@ -41,6 +41,8 @@ xsltproc-py stylesheet.xsl input.xml -o output.xml
 | `input.xml`      | Path to the input XML file         |
 | `-o output.xml`  | Output file path (default: stdout) |
 
+--
+
 ## 🛠 Example
 Given:
 
@@ -68,11 +70,16 @@ Output:
 ```xml
 <hello>World</hello>
 ```
+
+--
+
 ## ⚠ Limitations
 
 * XSLT 1.0 only
 * Does not support parameters (e.g., --stringparam)
 * No support for chunking, profiling, or extensions
+
+--
 
 ## 📄 License
 This project is licensed under the MIT License.
