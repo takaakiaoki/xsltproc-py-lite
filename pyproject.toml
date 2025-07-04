@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xsltproc-py-lite"
+version = "0.1.1"
+description = "A lightweight Python+lxml implementation of xsltproc with limited features"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    { name = "AOKI, Takaaki", email = "aoki.takaaki@gmail.com" }
+]
+dependencies = [
+    "lxml"
+]
+
+[project.scripts]
+xsltproc-py = "xsltproc_py_lite.xsltproc_py:main"
